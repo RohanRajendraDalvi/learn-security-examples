@@ -1,0 +1,3 @@
+escapeHTML function sanitizes the input
+
+tampering violates integrity

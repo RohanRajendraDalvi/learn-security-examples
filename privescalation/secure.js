@@ -14,6 +14,7 @@ app.use(bodyParser.json());
 // Session middleware
 app.use(session({
   secret: 'your_secret_key',
+  cookie: {httpOnly: true , sameSite: true},
   resave: false,
   saveUninitialized: true
 }));
