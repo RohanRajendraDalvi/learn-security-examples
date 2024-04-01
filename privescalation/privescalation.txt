@@ -1,0 +1,3 @@
+The insecure appliction doesn't have check for surpassing or changing roles.
+
+the secure code usis session info to track user data

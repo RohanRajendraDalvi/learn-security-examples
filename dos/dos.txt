@@ -1,2 +1,7 @@
 - Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+
+the secure code checks for errors originating from by inputs, and filters tehm out rather than crashing the server.
+
 - What additional security mechanisms can you incorporate to prevent such attacks?
+
+rate limiting the server, blacklisting bad users.
